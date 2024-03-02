@@ -712,8 +712,8 @@ def list_model_commands(args):
 
     # Suggest next step.
 
-    if not args.quiet:
-        utils.print_next_step("commands", description=entry, model=model)
+    # if not args.quiet:
+    #     utils.print_next_step("commands", description=entry, model=model)
 
 
 # -----------------------------------------------------------------------

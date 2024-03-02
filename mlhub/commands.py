@@ -701,10 +701,10 @@ def list_model_commands(args):
     msg += "supports the following commands:"
     msg = msg.format(model, title)
     msg = textwrap.fill(msg, width=75)
-    print(msg)
+    # print(msg)
 
-    for cmd in commands:
-        utils.print_model_cmd_help(entry, cmd)
+    # for cmd in commands:
+    #     utils.print_model_cmd_help(entry, cmd)
 
     # Update bash completion list.
 
